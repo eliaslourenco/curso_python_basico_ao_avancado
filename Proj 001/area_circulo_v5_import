@@ -1,0 +1,9 @@
+#!/usr/local/bin/python3
+import area_circulo_v5
+
+calcula = input('Esta tela destina-se a calcular a Área do Circulo. \nDigite "S" se deseja Calcular: ')
+
+if calcula.lower() == 's':
+    area_circulo_v5.calculaAreaCirculo()
+else:
+    print('Obrigado, tchau!')

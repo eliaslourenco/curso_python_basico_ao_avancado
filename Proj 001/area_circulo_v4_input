@@ -1,0 +1,10 @@
+#!/usr/local/bin/python3
+from math import pi
+
+raio = input('Informe o raio: ')
+
+print('π  = ', pi)
+print('raio =', raio)
+resultado_circunferencia = pi * float(raio)**2
+print("Circunferencia =",resultado_circunferencia)
+
